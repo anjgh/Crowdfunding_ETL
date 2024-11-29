@@ -10,6 +10,7 @@ Make sure you have the following software installed:
 - Jupyter Notebook: For running and exploring the notebooks
   
 Create a virtual environment conda create -n etl_venv python=3.10 anaconda -y
+
 Activate the etl_venv virtual environment conda activate realestate_venv
 
 Install the necessary dependencies listed in requirements.txt. These include:
