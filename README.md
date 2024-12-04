@@ -2,6 +2,8 @@
 This project works on building an ETL pipeline using Python, Pandas, and Python dictionary methods to extract and tranform the data. After transforming the data, four CSV files were created to make an ERD and table schema. Lastly, uploading the CSV files into a postgres database. 
 
 # Getting Started
+The `final.ipynb` notebook consolidates the contents of both `ammar.ipynb` and `anjila.ipynb`. Please be aware that the cells from `anjila.ipynb` and `ammar.ipynb` are duplicated within this merged notebook. To access the content from `ammar.ipynb`, you will need to scroll past the repeated cells.
+
 ## Installation
 Make sure you have the following software installed:
 - Python 3.7+: The programming language used for this project
@@ -18,7 +20,7 @@ Install the necessary dependencies:
 - numpy
 
 ## Development
-git clone https://github.com/anjgh/Crowdfunding_ETL.git cd ETL_Mini_Project_AGhimire_AKhan_TSiddiqui conda create -n elt_venv python=3.10 anaconda -y conda activate etl_venv jupyter notebook
+git clone https://github.com/anjgh/Crowdfunding_ETL.git cd final.ipynb conda create -n elt_venv python=3.10 anaconda -y conda activate etl_venv jupyter notebook
 
 If contributing, clone the repo and create a new branch for your changes: git checkout -b feature/your-feature After making your changes, submit a pull request for review.
 
